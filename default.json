@@ -1,0 +1,60 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":automergePatch",
+    ":disableRateLimiting",
+    ":gitSignOff",
+    ":semanticCommits",
+    ":separatePatchReleases",
+    ":timezone(Asia/Tokyo)"
+  ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$/",
+        "/(^|/)action\\.ya?ml$/"
+      ],
+      "matchStrings": ["GHALINT_VERSION: (?<currentValue>.*?)\\n"],
+      "datasourceTemplate": "github-releases",
+      "packageNameTemplate": "suzuki-shunsuke/ghalint"
+    }
+  ],
+  "github-actions": {
+    "addLabels": ["github_actions"],
+    "automerge": false
+  },
+  "labels": ["dependencies"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true
+  },
+  "minimumReleaseAge": "3 days",
+  "npm": {
+    "extends": [
+      "group:definitelyTyped",
+      "helpers:disableTypesNodeMajor",
+      "npm:unpublishSafe",
+      ":automergeTypes"
+    ]
+  },
+  "packageRules": [
+    {
+      "matchManagers": ["custom.regex"],
+      "matchPackageNames": ["suzuki-shunsuke/ghalint"],
+      "addLabels": ["github_actions"],
+      "automerge": false
+    }
+  ],
+  "pep621": {
+    "packageRules": [
+      {
+        "matchDepTypes": ["requires-python"],
+        "rangeStrategy": "replace"
+      }
+    ]
+  },
+  "rangeStrategy": "bump",
+  "schedule": ["* 0-4 * * *"]
+}
