@@ -23,7 +23,14 @@
   ],
   "github-actions": {
     "addLabels": ["github_actions"],
-    "automerge": false
+    "automerge": false,
+    "packageRules": [
+      {
+        "matchPackageNames": ["ponko2/actions"],
+        "automerge": true,
+        "minimumReleaseAge": "0 days"
+      }
+    ]
   },
   "labels": ["dependencies"],
   "lockFileMaintenance": {
