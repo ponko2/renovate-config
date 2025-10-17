@@ -42,7 +42,7 @@
     "extends": [
       "group:definitelyTyped",
       "helpers:disableTypesNodeMajor",
-      "npm:unpublishSafe",
+      "security:minimumReleaseAgeNpm",
       ":automergeTypes"
     ]
   },
