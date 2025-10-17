@@ -203,10 +203,6 @@ jobs:
       (needs.changed-files.result == 'skipped' || needs.changed-files.outputs.test == 'true') }}
     needs: changed-files
     runs-on: ubuntu-latest
-    container:
-      # Make sure to grab the latest version of the Playwright image
-      # https://playwright.dev/docs/docker#pull-the-image
-      image: mcr.microsoft.com/playwright:v1.56.1-noble@sha256:f1e7e01021efd65dd1a2c56064be399f3e4de00fd021ac561325f2bfbb2b837a
     timeout-minutes: 60
     permissions:
       contents: read
