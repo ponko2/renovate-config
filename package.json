@@ -9,7 +9,7 @@
     "prettier": "3.6.2",
     "renovate": "42.13.5"
   },
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@10.23.0",
   "private": true,
   "scripts": {
     "fix": "prettier --write .",
