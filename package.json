@@ -7,7 +7,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "prettier": "3.7.1",
-    "renovate": "42.26.2"
+    "renovate": "42.26.9"
   },
   "packageManager": "pnpm@10.24.0",
   "private": true,
