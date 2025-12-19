@@ -7,7 +7,7 @@
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
     "prettier": "3.7.4",
-    "renovate": "42.57.1"
+    "renovate": "42.58.2"
   },
   "devEngines": {
     "runtime": {
