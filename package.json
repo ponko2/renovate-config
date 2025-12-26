@@ -16,7 +16,7 @@
       "onFail": "download"
     }
   },
-  "packageManager": "pnpm@10.26.1",
+  "packageManager": "pnpm@10.26.2",
   "private": true,
   "scripts": {
     "fix": "prettier --write .",
