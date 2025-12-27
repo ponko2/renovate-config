@@ -38,6 +38,9 @@
     "automerge": true
   },
   "minimumReleaseAge": "3 days",
+  "nix": {
+    "enabled": true
+  },
   "npm": {
     "extends": [
       "group:definitelyTyped",
