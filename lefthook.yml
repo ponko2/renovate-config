@@ -1,0 +1,14 @@
+commit-msg:
+  jobs:
+    - name: commitlint
+      run: pnpm exec commitlint --edit {1}
+pre-commit:
+  parallel: true
+  jobs:
+    - name: Prettier
+      run: pnpm exec prettier --write {staged_files}
+      glob: "*.{cjs,css,js,json,jsx,mjs,ts,tsx,yaml,yml}"
+      stage_fixed: true
+    - name: Renovate Config Validator
+      run: pnpm exec renovate-config-validator --strict {staged_files}
+      glob: default.json

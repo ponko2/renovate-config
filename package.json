@@ -4,8 +4,7 @@
   "devDependencies": {
     "@commitlint/cli": "20.2.0",
     "@commitlint/config-conventional": "20.2.0",
-    "husky": "9.1.7",
-    "lint-staged": "16.2.7",
+    "lefthook": "2.0.13",
     "prettier": "3.7.4",
     "renovate": "42.66.0"
   },
@@ -21,7 +20,6 @@
   "scripts": {
     "fix": "prettier --write .",
     "lint": "prettier --check .",
-    "prepare": "node .husky/install.mjs",
     "test": "renovate-config-validator --strict default.json"
   },
   "type": "module"
