@@ -2,9 +2,10 @@
 
 set -euo pipefail
 
-git config --global --add safe.directory /workspaces/renovate-config
+nix profile add nixpkgs#nix-direnv
+mkdir -p ~/.config/direnv
+echo "source ~/.nix-profile/share/nix-direnv/direnvrc" >> ~/.config/direnv/direnvrc
 
-sudo apt update
-sudo apt install -y yamllint
+nix print-dev-env >/dev/null
 
-pnpm install --force
+direnv allow

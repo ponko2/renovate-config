@@ -2,6 +2,8 @@
   "recommendations": [
     "EditorConfig.EditorConfig",
     "esbenp.prettier-vscode",
+    "jnoortheen.nix-ide",
+    "mkhl.direnv",
     "ms-vscode-remote.vscode-remote-extensionpack"
   ]
 }
