@@ -5,3 +5,5 @@ onlyBuiltDependencies:
   - lefthook
   - protobufjs
   - re2
+
+scriptsPrependNodePath: true
