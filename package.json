@@ -6,7 +6,7 @@
     "@commitlint/config-conventional": "20.3.0",
     "lefthook": "2.0.13",
     "prettier": "3.7.4",
-    "renovate": "42.71.4"
+    "renovate": "42.74.1"
   },
   "devEngines": {
     "runtime": {
