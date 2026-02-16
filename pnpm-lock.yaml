@@ -24,8 +24,8 @@ importers:
         specifier: 3.8.1
         version: 3.8.1
       renovate:
-        specifier: 43.10.4
-        version: 43.10.4(encoding@0.1.13)(typanion@3.14.0)
+        specifier: 43.14.0
+        version: 43.14.0(encoding@0.1.13)(typanion@3.14.0)
 
 packages:
 
@@ -2168,8 +2168,8 @@ packages:
     resolution: {integrity: sha512-hdN1wVrZbb29eBGiGjJbeP8JbKjq1urkHJ/LIP/NY48MZ1QVXUsQBV1G1zvYFHn1XE06cwjBsOI2K3Ulnj1YXQ==}
     engines: {node: '>=8'}
 
-  markdown-it@14.1.0:
-    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
+  markdown-it@14.1.1:
+    resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
     hasBin: true
 
   markdown-table@3.0.4:
@@ -2852,8 +2852,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.10.4:
-    resolution: {integrity: sha512-m1HszCo3ocTFhTI/QFNCRB3frwzn55MoZ6dD1KheUrJX/IeRbPCQbArM6BM1mS4yAq0OswtZDHgBA0qO5CRP3g==}
+  renovate@43.14.0:
+    resolution: {integrity: sha512-nKjmZXQ1oBOW4UTSOilnep3ygdSeBoQONhrYYabwDHDldQlGAB9u+N2ot+Z8xWpeVqRmDo6Mx3GVxKVniktUuQ==}
     engines: {node: ^24.11.0, pnpm: ^10.0.0}
     hasBin: true
 
@@ -6437,7 +6437,7 @@ snapshots:
 
   map-obj@4.3.0: {}
 
-  markdown-it@14.1.0:
+  markdown-it@14.1.1:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
@@ -7273,7 +7273,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.10.4(encoding@0.1.13)(typanion@3.14.0):
+  renovate@43.14.0(encoding@0.1.13)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.980.0
       '@aws-sdk/client-ec2': 3.980.0
@@ -7356,7 +7356,7 @@ snapshots:
       jsonc-parser: 3.3.1
       klona: 2.0.6
       luxon: 3.7.2
-      markdown-it: 14.1.0
+      markdown-it: 14.1.1
       markdown-table: 3.0.4
       minimatch: 10.1.2
       moo: 0.5.2
