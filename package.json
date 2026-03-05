@@ -4,7 +4,7 @@
   "devDependencies": {
     "@commitlint/cli": "20.4.2",
     "@commitlint/config-conventional": "20.4.2",
-    "lefthook": "2.1.1",
+    "lefthook": "2.1.2",
     "prettier": "3.8.1",
     "renovate": "43.46.7"
   },
