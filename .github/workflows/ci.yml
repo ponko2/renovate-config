@@ -152,7 +152,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
-          node-version: lts/*
+          node-version-file: package.json
       - name: Install dependencies
         run: pnpm install
       - name: Validate all commits from PR
@@ -195,7 +195,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
-          node-version: lts/*
+          node-version-file: package.json
       - name: Install dependencies
         run: pnpm install
       - name: Run Prettier
@@ -219,7 +219,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f # v6.3.0
         with:
-          node-version: lts/*
+          node-version-file: package.json
       - name: Install dependencies
         run: pnpm install
       - name: Run test
