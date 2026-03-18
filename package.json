@@ -2,8 +2,8 @@
   "name": "renovate-config",
   "version": "0.1.0",
   "devDependencies": {
-    "@commitlint/cli": "20.4.4",
-    "@commitlint/config-conventional": "20.4.4",
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
     "lefthook": "2.1.4",
     "prettier": "3.8.1",
     "renovate": "43.73.2"
