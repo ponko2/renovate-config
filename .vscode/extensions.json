@@ -1,9 +1,9 @@
 {
   "recommendations": [
     "EditorConfig.EditorConfig",
-    "esbenp.prettier-vscode",
     "jnoortheen.nix-ide",
     "mkhl.direnv",
-    "ms-vscode-remote.vscode-remote-extensionpack"
+    "ms-vscode-remote.vscode-remote-extensionpack",
+    "oxc.oxc-vscode"
   ]
 }

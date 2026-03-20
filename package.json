@@ -1,11 +1,18 @@
 {
   "name": "renovate-config",
   "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fix": "oxfmt",
+    "lint": "oxfmt --check",
+    "test": "renovate-config-validator --strict default.json"
+  },
   "devDependencies": {
     "@commitlint/cli": "20.5.0",
     "@commitlint/config-conventional": "20.5.0",
     "lefthook": "2.1.4",
-    "prettier": "3.8.1",
+    "oxfmt": "^0.41.0",
     "renovate": "43.76.5"
   },
   "devEngines": {
@@ -15,12 +22,5 @@
       "onFail": "download"
     }
   },
-  "packageManager": "pnpm@10.32.1",
-  "private": true,
-  "scripts": {
-    "fix": "prettier --write .",
-    "lint": "prettier --check .",
-    "test": "renovate-config-validator --strict default.json"
-  },
-  "type": "module"
+  "packageManager": "pnpm@10.32.1"
 }
