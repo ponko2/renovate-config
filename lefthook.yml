@@ -7,9 +7,8 @@ pre-commit:
   jobs:
     - name: EditorConfig
       run: editorconfig-checker {staged_files}
-    - name: Prettier
-      run: pnpm exec prettier --write {staged_files}
-      glob: "*.{cjs,css,js,json,jsx,mjs,ts,tsx,yaml,yml}"
+    - name: Oxfmt
+      run: oxfmt --no-error-on-unmatched-pattern {staged_files}
       stage_fixed: true
     - name: Renovate Config Validator
       run: pnpm exec renovate-config-validator --strict {staged_files}
