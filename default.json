@@ -9,18 +9,6 @@
     ":separatePatchReleases",
     ":timezone(Asia/Tokyo)"
   ],
-  "customManagers": [
-    {
-      "customType": "regex",
-      "managerFilePatterns": [
-        "/(^|/)(workflow-templates|\\.(?:github|gitea|forgejo)/(?:workflows|actions))/.+\\.ya?ml$/",
-        "/(^|/)action\\.ya?ml$/"
-      ],
-      "matchStrings": ["GHALINT_VERSION: (?<currentValue>.*?)\\n"],
-      "datasourceTemplate": "github-releases",
-      "packageNameTemplate": "suzuki-shunsuke/ghalint"
-    }
-  ],
   "github-actions": {
     "automerge": false,
     "packageRules": [
@@ -48,13 +36,6 @@
       ":automergeTypes"
     ]
   },
-  "packageRules": [
-    {
-      "matchManagers": ["custom.regex"],
-      "matchPackageNames": ["suzuki-shunsuke/ghalint"],
-      "automerge": false
-    }
-  ],
   "pep621": {
     "packageRules": [
       {
