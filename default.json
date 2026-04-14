@@ -22,7 +22,6 @@
     }
   ],
   "github-actions": {
-    "addLabels": ["github_actions"],
     "automerge": false,
     "packageRules": [
       {
@@ -53,7 +52,6 @@
     {
       "matchManagers": ["custom.regex"],
       "matchPackageNames": ["suzuki-shunsuke/ghalint"],
-      "addLabels": ["github_actions"],
       "automerge": false
     }
   ],
