@@ -11,7 +11,7 @@
   "devDependencies": {
     "@commitlint/cli": "21.0.2",
     "@commitlint/config-conventional": "21.0.2",
-    "lefthook": "2.1.8",
+    "lefthook": "2.1.9",
     "oxfmt": "0.53.0",
     "renovate": "43.209.1"
   },
