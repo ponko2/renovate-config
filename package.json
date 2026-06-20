@@ -13,7 +13,7 @@
     "@commitlint/config-conventional": "21.0.2",
     "lefthook": "2.1.9",
     "oxfmt": "0.53.0",
-    "renovate": "43.212.0"
+    "renovate": "43.212.4"
   },
   "devEngines": {
     "runtime": {
