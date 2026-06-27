@@ -24,8 +24,8 @@ importers:
         specifier: 0.55.0
         version: 0.55.0
       renovate:
-        specifier: 43.228.0
-        version: 43.228.0(typanion@3.14.0)
+        specifier: 43.228.1
+        version: 43.228.1(typanion@3.14.0)
 
 packages:
 
@@ -1456,6 +1456,7 @@ packages:
   git-raw-commits@5.0.1:
     resolution: {integrity: sha512-Y+csSm2GD/PCSh6Isd/WiMjNAydu0VBiG9J7EdQsNA5P9uXvLayqjmTsNlK5Gs9IhblFZqOU0yid5Il5JPoLiQ==}
     engines: {node: '>=18'}
+    deprecated: Deprecated and no longer maintained. Use @conventional-changelog/git-client instead.
     hasBin: true
 
   git-up@8.1.1:
@@ -2445,8 +2446,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.228.0:
-    resolution: {integrity: sha512-tI67obAODTtEAxyGw2fHwDqTx5gg/qY3kpdh9AjNYRSuDOJNBn0sLt9QErOYc1+BTIl3YQ62PUzUyxJNuQOHcQ==}
+  renovate@43.228.1:
+    resolution: {integrity: sha512-5H53W+3coOMyMVkMNRHoFFzJFBZ9FnnuFfHJTHgWdK7mKPnXfBzfviJbZiN6oQX+j1Z9ia6+L9hgzbzkEjce9A==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -3436,7 +3437,7 @@ snapshots:
 
   '@npmcli/fs@5.0.0':
     dependencies:
-      semver: 7.8.3
+      semver: 7.8.5
 
   '@one-ini/wasm@0.2.1': {}
 
@@ -3943,7 +3944,7 @@ snapshots:
       hpagent: 1.2.0
       micromatch: 4.0.8
       p-limit: 2.3.0
-      semver: 7.8.3
+      semver: 7.8.5
       strip-ansi: 6.0.1
       tar: 7.5.16
       tinylogic: 2.0.0
@@ -4079,7 +4080,7 @@ snapshots:
 
   builtins@5.1.0:
     dependencies:
-      semver: 7.8.3
+      semver: 7.8.5
 
   bunyan@1.8.15:
     optionalDependencies:
@@ -4344,7 +4345,7 @@ snapshots:
       '@one-ini/wasm': 0.2.1
       commander: 14.0.3
       minimatch: 10.2.5
-      semver: 7.8.3
+      semver: 7.8.5
 
   email-addresses@5.0.0: {}
 
@@ -4616,7 +4617,7 @@ snapshots:
       es6-error: 4.1.1
       matcher: 3.0.0
       roarr: 2.15.4
-      semver: 7.8.3
+      semver: 7.8.5
       serialize-error: 7.0.1
 
   global-directory@5.0.0:
@@ -5368,7 +5369,7 @@ snapshots:
       graceful-fs: 4.2.11
       nopt: 9.0.0
       proc-log: 6.1.0
-      semver: 7.8.3
+      semver: 7.8.5
       tar: 7.5.16
       tinyglobby: 0.2.17
       undici: 6.27.0
@@ -5615,7 +5616,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.228.0(typanion@3.14.0):
+  renovate@43.228.1(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
