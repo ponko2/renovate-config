@@ -24,8 +24,8 @@ importers:
         specifier: 0.56.0
         version: 0.56.0
       renovate:
-        specifier: 43.244.1
-        version: 43.244.1(typanion@3.14.0)
+        specifier: 43.244.4
+        version: 43.244.4(typanion@3.14.0)
 
 packages:
 
@@ -2440,8 +2440,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.244.1:
-    resolution: {integrity: sha512-hwmVWuXvocHzpxZfTikY4xlzyWy60689JnFGKfRLl3/YDQAjdG/cEClVpPFlsf2+N309HNVvhmp5O+vMC9bkqQ==}
+  renovate@43.244.4:
+    resolution: {integrity: sha512-0SZf8B1ksJ9sIrG8GZFClEjH/ErIqp67KI8dEHqbqTJc9udqtFLwzSBNu8OwABSdn/abecpL+RGphJNrKp9thg==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -2517,11 +2517,6 @@ packages:
 
   semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-
-  semver@7.8.4:
-    resolution: {integrity: sha512-rUCObTnP32Q08R2uuIrt7r9PlEonuTmtuXYcW6s5kjdlj3xbnwe+21yXptAUYcMAABLkYYTtnmzb3w3EDZfueA==}
-    engines: {node: '>=10'}
     hasBin: true
 
   semver@7.8.5:
@@ -5606,7 +5601,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.244.1(typanion@3.14.0):
+  renovate@43.244.4(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1053.0
       '@aws-sdk/client-ec2': 3.1053.0
@@ -5709,7 +5704,7 @@ snapshots:
       remark-github: 12.0.0
       safe-stable-stringify: 2.5.0
       sax: 1.6.0
-      semver: 7.8.4
+      semver: 7.8.5
       semver-stable: 3.0.0
       semver-utils: 1.1.4
       shlex: 3.0.0
@@ -5799,8 +5794,6 @@ snapshots:
   semver-utils@1.1.4: {}
 
   semver@6.3.1: {}
-
-  semver@7.8.4: {}
 
   semver@7.8.5: {}
 
