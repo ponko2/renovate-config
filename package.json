@@ -9,8 +9,8 @@
     "test": "renovate-config-validator --strict default.json"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.1.0",
-    "@commitlint/config-conventional": "21.1.0",
+    "@commitlint/cli": "21.2.0",
+    "@commitlint/config-conventional": "21.2.0",
     "lefthook": "2.1.9",
     "oxfmt": "0.56.0",
     "renovate": "43.249.2"
