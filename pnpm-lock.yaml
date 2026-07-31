@@ -24,8 +24,8 @@ importers:
         specifier: 0.61.0
         version: 0.61.0
       renovate:
-        specifier: 43.285.0
-        version: 43.285.0(supports-color@7.2.0)(typanion@3.14.0)
+        specifier: 43.285.6
+        version: 43.285.6(supports-color@7.2.0)(typanion@3.14.0)
 
 packages:
 
@@ -2380,6 +2380,10 @@ packages:
     resolution: {integrity: sha512-e8vJF4XdVkzqqSHguEMz41mQO1wKwxKm5ENrUJQUu9kLDCtn83cxbyHZcszr4QC5zEA7WffRRC4gsTecC7J9oA==}
     engines: {node: '>=18'}
 
+  p-map@7.0.6:
+    resolution: {integrity: sha512-I4Prw6ivkd6p8PiYR1tXASOAOBzIJwu0TB7fqaX0c/8c3QAehNYmX57EijyGGGBt3c/BIowGwV03RVBtXvHEVg==}
+    engines: {node: '>=18'}
+
   p-queue@9.3.1:
     resolution: {integrity: sha512-POWdiIPmsUPGwb4FeQ4OBg46aqmcInSWe45CKDsGHiOBiVQM9chqfQTuqhuTzcg2Vz9faTI65at0KkVyVEiCHw==}
     engines: {node: '>=20'}
@@ -2486,8 +2490,8 @@ packages:
     resolution: {integrity: sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==}
     engines: {node: '>=10'}
 
-  re2@1.26.0:
-    resolution: {integrity: sha512-QTEfFp0nu1eT/HKKZC+2BKM9Lb8uqprGkcHhro9r3giiKS+1SnNZBZ1m7C7Axi/VR1YGXiu3mp35UA53yHAuNw==}
+  re2@1.26.1:
+    resolution: {integrity: sha512-oi79a4h6EO3PAwNsDMWgeCcsRGQEUa52DIgOiFTZGDEZocEXG9h+oXy0qZqndo47huUeJuVWSoOJIEhOupqOcg==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   read-yaml-file@2.1.0:
@@ -2509,8 +2513,8 @@ packages:
   remark@15.0.1:
     resolution: {integrity: sha512-Eht5w30ruCXgFmxVUSlNWQ9iiimq07URKeFS3hNc8cUWy1llX4KDWfyEDZRycMc+znsN9Ux5/tJ/BFdgdOwA3A==}
 
-  renovate@43.285.0:
-    resolution: {integrity: sha512-StnWO513Xw37BI6LEPXqGwELdTATGLBh7wK4HPQIxly0P6N5lymU2ZOi/MuBdoLO4O3tyEGmy/cCjrRJdi4wCA==}
+  renovate@43.285.6:
+    resolution: {integrity: sha512-FnzocUCLcTVU2BfbWqM5uipp/9DXkxdRe8TE9JHZmQsG8VJBZgdf4bDNi7XGSDeFIhSqsZ/VXB0Mrkx7SC/0BA==}
     engines: {node: ^24.11.0, pnpm: ^11.0.0}
     hasBin: true
 
@@ -5509,6 +5513,8 @@ snapshots:
 
   p-map@7.0.5: {}
 
+  p-map@7.0.6: {}
+
   p-queue@9.3.1:
     dependencies:
       eventemitter3: 5.0.4
@@ -5599,7 +5605,7 @@ snapshots:
 
   quick-lru@5.1.1: {}
 
-  re2@1.26.0:
+  re2@1.26.1:
     dependencies:
       install-artifact-from-github: 1.7.0
       nan: 2.28.0
@@ -5655,7 +5661,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  renovate@43.285.0(supports-color@7.2.0)(typanion@3.14.0):
+  renovate@43.285.6(supports-color@7.2.0)(typanion@3.14.0):
     dependencies:
       '@aws-sdk/client-codecommit': 3.1075.0
       '@aws-sdk/client-ec2': 3.1075.0
@@ -5747,7 +5753,7 @@ snapshots:
       neotraverse: 0.6.18
       node-html-parser: 7.1.0
       p-all: 5.0.1
-      p-map: 7.0.5
+      p-map: 7.0.6
       p-queue: 9.3.1
       p-throttle: 8.1.0
       parse-link-header: 2.0.0
@@ -5777,7 +5783,7 @@ snapshots:
       zod: 4.4.3
     optionalDependencies:
       openpgp: 6.3.1
-      re2: 1.26.0
+      re2: 1.26.1
     transitivePeerDependencies:
       - '@node-rs/xxhash'
       - '@openpgp/web-stream-tools'
