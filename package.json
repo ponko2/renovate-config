@@ -12,7 +12,7 @@
     "@commitlint/cli": "21.2.2",
     "@commitlint/config-conventional": "21.2.2",
     "lefthook": "2.1.10",
-    "oxfmt": "0.63.0",
+    "oxfmt": "0.64.0",
     "renovate": "44.34.3"
   },
   "devEngines": {
