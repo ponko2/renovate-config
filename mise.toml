@@ -1,0 +1,16 @@
+[env]
+_.path = ["node_modules/.bin"]
+
+[settings]
+lockfile = true
+
+[tools]
+editorconfig-checker = "latest"
+hk = "latest"
+pnpm = "latest"
+python = "latest"
+uv = "latest"
+
+[tools.yamllint]
+version = "latest"
+depends = ["python", "uv"]
