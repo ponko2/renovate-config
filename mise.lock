@@ -192,6 +192,18 @@ checksum = "sha256:b3cb8ab5958393faacefabfb3a402060eb256b1fda8e1f83c74c3fc877ebf
 url = "https://github.com/jdx/hk/releases/download/v2.0.1/hk-x86_64-pc-windows-msvc.zip"
 signer = "sigstore-oidc:https://github.com/jdx/hk/.github/workflows/release.yml"
 
+[[tools."npm:@commitlint/cli"]]
+version = "21.2.3"
+aube = { path = ".mise/locks/npm-commitlint-cli/21.2.3", digest = "sha256:b8fee1bdb4c7f14e437c850d560a868719859e908b8d793637e753f723b4b1ad" }
+backend = "npm:@commitlint/cli"
+specifiers = ["latest"]
+
+[[tools.oxfmt]]
+version = "0.70.0"
+aube = { path = ".mise/locks/oxfmt/0.70.0", digest = "sha256:6f43444e29a288a4c8eaae0fd4842397419f6bde12beb04d2be2216a275f96e2" }
+backend = "npm:oxfmt"
+specifiers = ["latest"]
+
 [[tools.pnpm]]
 version = "12.5.1"
 backend = "aqua:pnpm/pnpm"

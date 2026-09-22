@@ -5,10 +5,12 @@ _.path = ["node_modules/.bin"]
 lockfile = true
 
 [tools]
+"npm:@commitlint/cli" = "latest"
 actionlint = "latest"
 editorconfig-checker = "latest"
 ghalint = "latest"
 hk = "latest"
+oxfmt = "latest"
 pnpm = "latest"
 python = "latest"
 uv = "latest"
