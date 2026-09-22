@@ -5,11 +5,14 @@ _.path = ["node_modules/.bin"]
 lockfile = true
 
 [tools]
+actionlint = "latest"
 editorconfig-checker = "latest"
+ghalint = "latest"
 hk = "latest"
 pnpm = "latest"
 python = "latest"
 uv = "latest"
+zizmor = "latest"
 
 [tools.yamllint]
 version = "latest"
