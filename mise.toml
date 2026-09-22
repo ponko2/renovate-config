@@ -13,6 +13,7 @@ hk = "latest"
 oxfmt = "latest"
 pnpm = "latest"
 python = "latest"
+shellcheck = "latest"
 uv = "latest"
 zizmor = "latest"
 
