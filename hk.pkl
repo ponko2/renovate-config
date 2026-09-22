@@ -3,7 +3,10 @@ amends "package://github.com/jdx/hk/releases/download/v2.0.1/hk@2.0.1#/Config.pk
 import "package://github.com/jdx/hk/releases/download/v2.0.1/hk@2.0.1#/Builtins.pkl"
 
 steps {
+  ["actionlint"] = Builtins.actionlint
   ["editorconfig_checker"] = Builtins.editorconfig_checker
+  ["ghalint_action"] = Builtins.ghalint_action
+  ["ghalint_workflow"] = Builtins.ghalint_workflow
   ["oxfmt"] = Builtins.oxfmt
   ["renovate_config_validator"] {
     glob = "default.json"
@@ -15,6 +18,7 @@ steps {
     }
   }
   ["yamllint"] = Builtins.yamllint
+  ["zizmor"] = Builtins.zizmor
 }
 
 hooks {
