@@ -1,17 +1,14 @@
 [env]
 _.path = ["node_modules/.bin"]
 
-[settings]
-lockfile = true
-
 [tools]
 "aqua:owenlamont/ryl" = "latest"
-"npm:@commitlint/cli" = "latest"
+"npm:@commitlint/cli" = "21.2.3"
 actionlint = "latest"
 editorconfig-checker = "latest"
 ghalint = "latest"
 hk = "latest"
-oxfmt = "latest"
+oxfmt = "0.70.0"
 pnpm = "latest"
 shellcheck = "latest"
 zizmor = "latest"
