@@ -5,6 +5,7 @@ _.path = ["node_modules/.bin"]
 lockfile = true
 
 [tools]
+"aqua:owenlamont/ryl" = "latest"
 "npm:@commitlint/cli" = "latest"
 actionlint = "latest"
 editorconfig-checker = "latest"
@@ -12,11 +13,5 @@ ghalint = "latest"
 hk = "latest"
 oxfmt = "latest"
 pnpm = "latest"
-python = "latest"
 shellcheck = "latest"
-uv = "latest"
 zizmor = "latest"
-
-[tools.yamllint]
-version = "latest"
-depends = ["python", "uv"]

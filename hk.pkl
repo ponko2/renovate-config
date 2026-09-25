@@ -17,7 +17,7 @@ steps {
       effect = "read"
     }
   }
-  ["yamllint"] = Builtins.yamllint
+  ["ryl"] = Builtins.ryl
   ["zizmor"] = Builtins.zizmor
 }
 
