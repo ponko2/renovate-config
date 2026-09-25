@@ -7,7 +7,7 @@
     "test": "renovate-config-validator --strict default.json"
   },
   "devDependencies": {
-    "renovate": "44.103.7"
+    "renovate": "44.107.0"
   },
   "devEngines": {
     "runtime": {
