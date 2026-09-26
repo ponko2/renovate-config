@@ -55,13 +55,17 @@ jobs:
             common: &common
               - .github/workflows/ci.yml
             dependencies: &dependencies
+              - mise.lock
+              - mise.toml
               - package.json
               - pnpm-lock.yaml
             actions:
+              - *dependencies
               - "**/action.{yaml,yml}"
               - ".github/workflows/*.{yaml,yml}"
             ryl:
               - *common
+              - *dependencies
               - "**/*.{yaml,yml}"
             test:
               - *common
