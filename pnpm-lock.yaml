@@ -167,7 +167,7 @@ importers:
   .:
     devDependencies:
       node:
-        specifier: runtime:^24.11.1
+        specifier: runtime:^24.21.0
         version: runtime:24.21.0
       renovate:
         specifier: 44.110.1
