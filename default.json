@@ -30,6 +30,7 @@
       }
     ]
   },
+  "ignorePaths": ["**/.config/mise/locks/**", "**/.mise/locks/**"],
   "labels": ["dependencies"],
   "lockFileMaintenance": {
     "enabled": true,
