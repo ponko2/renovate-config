@@ -26,14 +26,6 @@
     "automerge": true
   },
   "minimumReleaseAge": "3 days",
-  "mise": {
-    "packageRules": [
-      {
-        "matchPackageNames": ["luarocks:*"],
-        "enabled": false
-      }
-    ]
-  },
   "nix": {
     "enabled": true
   },
