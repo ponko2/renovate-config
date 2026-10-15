@@ -4,8 +4,6 @@ import "package://github.com/jdx/hk/releases/download/v2.6.0/hk@2.6.0#/Builtins.
 
 steps {
   ["editorconfig_checker"] = Builtins.editorconfig_checker
-  ["ghalint_action"] = Builtins.ghalint_action
-  ["ghalint_workflow"] = Builtins.ghalint_workflow
   ["jactionlint"] = Builtins.jactionlint
   ["oxfmt"] = Builtins.oxfmt
   ["renovate_config_validator"] {
@@ -18,7 +16,6 @@ steps {
     }
   }
   ["ryl"] = Builtins.ryl
-  ["zizmor"] = Builtins.zizmor
 }
 
 hooks {
