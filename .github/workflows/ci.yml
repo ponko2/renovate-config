@@ -67,6 +67,7 @@ jobs:
               - *common
               - *dependencies
               - "**/*.{yaml,yml}"
+              - .ryl.toml
             test:
               - *common
               - *dependencies
