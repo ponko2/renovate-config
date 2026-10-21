@@ -3,7 +3,7 @@ _.path = ["node_modules/.bin"]
 
 [tools]
 "aqua:owenlamont/ryl" = "latest"
-"npm:@commitlint/cli" = "21.2.3"
+"npm:@commitlint/cli" = "21.2.4"
 editorconfig-checker = "latest"
 hk = "latest"
 jactionlint = "latest"
