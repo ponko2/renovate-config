@@ -7,6 +7,6 @@ _.path = ["node_modules/.bin"]
 editorconfig-checker = "latest"
 hk = "latest"
 jactionlint = "latest"
-oxfmt = "0.73.0"
+oxfmt = "0.74.0"
 pnpm = "latest"
 shellcheck = "latest"
