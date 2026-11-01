@@ -26,6 +26,11 @@
     "automerge": true
   },
   "minimumReleaseAge": "3 days",
+  "mise": {
+    "lockFileMaintenance": {
+      "enabled": false
+    }
+  },
   "nix": {
     "enabled": true
   },
