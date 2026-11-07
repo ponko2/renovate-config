@@ -167,6 +167,9 @@ jobs:
       - name: Run ryl
         run: ryl --format=github --strict .
         shell: bash
+      - name: Run ryl format
+        run: ryl format --check --output-format=github .
+        shell: bash
   test:
     name: Test
     if: ${{ always() && !failure() && !cancelled() &&

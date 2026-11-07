@@ -17,6 +17,7 @@ steps {
     }
   }
   ["ryl"] = Builtins.ryl
+  ["ryl_format"] = Builtins.ryl_format
 }
 
 hooks {
