@@ -19,7 +19,18 @@
       }
     ]
   },
-  "ignorePaths": ["**/.config/mise/locks/**", "**/.mise/locks/**"],
+  "ignorePaths": [
+    "**/.config/mise/locks/**",
+    "**/.mise/locks/**",
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/bower_components/**",
+    "**/examples/**",
+    "**/node_modules/**",
+    "**/test/**",
+    "**/tests/**",
+    "**/vendor/**"
+  ],
   "labels": ["dependencies"],
   "lockFileMaintenance": {
     "enabled": true,
